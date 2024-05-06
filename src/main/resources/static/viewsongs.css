@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c0c0c0;
+   
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align:center;
+}
+
+thead {
+    background-color: #4CAF50;
+    color: #ff80ff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #0080c0;
+}
+
+audio {
+    width: 100%;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #c0c0c0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
